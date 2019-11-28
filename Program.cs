@@ -7,6 +7,7 @@ namespace HelloWorldNETCore
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("The time is " + DateTime.Now);
         }
     }
 }
